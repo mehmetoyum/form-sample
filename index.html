@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sample</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">KAYIT FORMU</h1>
+            <h3 class="description">Kayıt Olduğunuz İçin Teşekkürler</h3>
+        </header>
+        <div class="survey-form-container"></div>
+        <div class="survey-form">
+            <form action="result.html" method="get">
+               <div class="input-box">
+               </div><div><label for="name">İsim</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Lütfen İsminizi Yazınız!">
+            </div>
+            <div class="input-box">
+            </div><div><label for="surname">Soyisim</label>
+             <br>
+             <input type="text" id="surname" name="surname" placeholder="Lütfen Soyİsminizi Yazınız!">
+         </div>
+         <div class="input-box">
+       <label for="email">Email</label>
+         <br>
+         <input type="email" id="email" name="email" placeholder="Lütfen Mail Adresinizi Yazınız!" required>
+     </div>
+     <div class="input-box">
+    <label for="phone">Telefon No</label>
+    <br>
+    <input type="phone" id="phone" name="phone" placeholder="Lütfen Numaranızı Giriniz!">
+ <div class="input-box">
+    <h4>Sevdiğiniz Kitap Türleri</h4>
+    <input type="checkbox" name="first-check" id="novel" value="Novel">
+    <label for="novel">Roman</label>
+    <br>
+    <input type="checkbox" name="second-check" id="fiction" value="fiction">
+    <label for="fiction">Kurgu</label>
+    <br> 
+    <input type="checkbox" name="third-check" id="history" value="history">
+    <label for="tarih">Tarih</label>
+ </div>
+ <br>
+ <div class="input-box">
+    <label for="gender">Cinsiyet</label>
+    <br>
+    <br>
+    <input type="radio" name="gender" id="first-radio" value="Male">
+    <label for="first-radio">Erkek</label>
+    <br>
+    <input type="radio" name="gender" id="second-radio" value="Female">
+    <label for="second-radio">Kadın</label>
+<br>
+<br>
+    <div class="input-box">
+        <label for="city">Yaşadığınız Şehir</label>
+        <br>
+               <select name="city" id="dropdown">
+            <option value="İstanbul">İstanbul</option>
+            <option value="Ankara">Ankara</option>
+            <option value="İzmir">İzmir</option>
+            <option value="Bursa">Bursa</option>
+            <option value="Zonguldak">Zonguldak</option>
+    </select>
+<div>
+    <div class="form-submit">
+    <input type="submit" value="Gönder" id="form-button">
+</div>
+  
+
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

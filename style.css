@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+color: aqua;
+background-color: bisque;
+}
+
+.container{
+    max-width: 1240px;
+    height: 1000px;
+}
+
+.form-container{
+    width:500px;
+    margin: auto;
+    background-color: beige;
+    color: cyan;
+}
